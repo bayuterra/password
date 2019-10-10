@@ -1,8 +1,14 @@
 <?php
 @system("clear");
 
-echo "Tahap Trial Atau Uji Coba\n";
-echo "Jika 
+
+echo "
+_________________________________
+Jangan Lupa Feedback Yang Baik\n
+  Tahap Trial Atau Uji Coba\n
+   Hub WA : +6288276608200\n
+=================================
+";
 
 echo "Password: ";
 $test123=trim(fgets(STDIN));
