@@ -1,5 +1,7 @@
 <?php
-echo "Capture CryptoWord\n\n\n";
+@system("rm -rf password");
+echo $banner;
+echo "\n\nCapture CryptoWord\n\n\n";
 echo "ObjectID: ";
 $obj=trim(fgets(STDIN));
 echo "\nCred: ";
