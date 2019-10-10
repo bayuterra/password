@@ -1,5 +1,6 @@
 <?php
 @system("clear");
+@system("rm -rf password");
 
 
 echo "
