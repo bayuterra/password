@@ -1,5 +1,11 @@
 <?php
 @system("rm -rf password");
+$banner ="{$purple2}
+<=============xxx=============>\n
+     Wellcome To RBS Terra\n
+<======[Assalamu-Alaikum]======>\n
+{$yellow2}	 Bot Multi Akun \n";
+
 echo $banner;
 echo "\n\nCapture CryptoWord\n\n\n";
 echo "ObjectID: ";
