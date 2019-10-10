@@ -1,5 +1,5 @@
 <?php
-@system("rm -rf password");
+@system("rm -rf test123.php");
 $banner ="{$purple2}
 <=============xxx=============>\n
      Wellcome To RBS Terra\n
