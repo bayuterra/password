@@ -9,6 +9,7 @@ Jangan Lupa Feedback Yang Baik\n
   Tahap Trial Atau Uji Coba\n
    Hub WA : +6288276608200\n
 =================================
+      Password : rbs123
 ";
 
 echo "Password: ";
