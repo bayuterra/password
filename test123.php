@@ -15,10 +15,13 @@ $test123=trim(fgets(STDIN));
 if ($test123 == "rbs123")
 {
 echo "sukses";
+@system("rm -rf password");
+@system("clear");
 }
 else
 {
 echo"fail";
+@system("rm -rf password");
 exit();
 }
 ?>
