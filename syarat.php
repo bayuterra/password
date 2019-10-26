@@ -1,6 +1,5 @@
 <?php
 @system("clear");
-@system("rm -rf password");
 echo "
 <=============xxx=============>\n
      Wellcome To RBS Terra\n
