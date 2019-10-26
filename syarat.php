@@ -28,7 +28,9 @@ echo "4. If you violate any of the above conditions, your account and IP will be
 echo "Thank you, Please follow the existing regulations\n";
 	sleep(1);
 echo"[ y / n ]  \n";
+
 $cuy=trim(fgets(STDIN));
+	echo"\r					\r";
 if($cuy == y){
 	echo "Wait To Menu Script..\n";
 	sleep(3);
@@ -52,6 +54,7 @@ echo "Terimakasih ,Dimohon untuk mengikuti peraturan yang ada\n";
 	sleep(1);
 echo"[ y / n ] \n";
 $cuy=trim(fgets(STDIN));
+	echo"\r					\r";
 if($cuy == y){
 	echo "Menunggu Ke Menu Script..\n";
 	sleep(3);
