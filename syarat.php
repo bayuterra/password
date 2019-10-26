@@ -15,7 +15,7 @@ echo "
      Wellcome To RBS Terra\n
 <======[Assalamu-Alaikum]======>\n";
 if ($bhs == "en"){
-echo "terms and conditions for RBS script users.\n\n";
+echo "\nterms and conditions for RBS script users.\n\n";
 	sleep(1);
 echo "\n1. It is forbidden to sell scripts to other users.\n\n";
 	sleep(1);
@@ -40,7 +40,7 @@ if($cuy == y){
 		}
 }
 if ($bhs == "id"){
-echo "syarat dan ketentuan untuk pengguna script RBS.\n";
+echo "\nsyarat dan ketentuan untuk pengguna script RBS.\n";
 	sleep(1);
 echo "\n1.Dilarang untuk memperjual belikan script kepada pengguna yang lain.\n";
 	sleep(1);
