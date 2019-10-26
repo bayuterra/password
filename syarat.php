@@ -23,6 +23,7 @@ if($cuy == y){
 		echo "Good Bye\n";
 		exit();
 		}
+}
 if ($bhs == "id"){
 echo "syarat dan ketentuan untuk pengguna script RBS.\n";
 echo "1.Dilarang untuk memperjual belikan script kepada pengguna yang lain.\n";
@@ -38,4 +39,5 @@ if($cuy == y){
 		echo "Selamat Tinggal\n";
 		exit();
 		}
+}
 ?>
