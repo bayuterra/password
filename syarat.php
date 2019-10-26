@@ -8,17 +8,19 @@ echo "
 echo "please choose your language\nsilahkan pilih bahasa anda";
 echo "\nen/id :";
 $bhs=trim(fgets(STDIN));
+@system("clear");
+@error_reporting(0);
 echo "
 <=============xxx=============>\n
      Wellcome To RBS Terra\n
 <======[Assalamu-Alaikum]======>\n";
 if ($bhs == "en"){
-echo "terms and conditions for RBS script users.\n";
-echo "1. It is forbidden to sell scripts to other users.\n";
-echo "2. It is prohibited to create multiple accounts or use accounts on multiple IPs\n";
-echo "3. Always give a good response for positive goals\n";
-echo "4. If you violate any of the above conditions, your account and IP will be banned, and the script will be deleted\n";
-echo "Thank you, Please follow the existing regulations [y / n]\n";
+echo "terms and conditions for RBS script users.\n\n";
+echo "1. It is forbidden to sell scripts to other users.\n\n";
+echo "2. It is prohibited to create multiple accounts or use accounts on multiple IPs\n\n";
+echo "3. Always give a good response for positive goals\n\n";
+echo "4. If you violate any of the above conditions, your account and IP will be banned, and the script will be deleted\n\n";
+echo "Thank you, Please follow the existing regulations [y / n]\n\n";
 $cuy=trim(fgets(STDIN));
 if($cuy == y){
 	echo "Wait To Menu Script..\n";
