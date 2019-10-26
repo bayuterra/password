@@ -17,17 +17,17 @@ echo "
 if ($bhs == "en"){
 echo "terms and conditions for RBS script users.\n\n";
 	sleep(1);
-echo "1. It is forbidden to sell scripts to other users.\n\n";
+echo "\n1. It is forbidden to sell scripts to other users.\n\n";
 	sleep(1);
-echo "2. It is prohibited to create multiple accounts or use accounts on multiple IPs\n\n";
+echo "\n2. It is prohibited to create multiple accounts or use accounts on multiple IPs\n\n";
 	sleep(1);
-echo "3. Always give a good response for positive goals\n\n";
+echo "\n3. Always give a good response for positive goals\n\n";
 	sleep(1);
-echo "4. If you violate any of the above conditions, your account and IP will be banned, and the script will be deleted\n\n";
+echo "\n4. If you violate any of the above conditions, your account and IP will be banned, and the script will be deleted\n\n";
 	sleep(1);
-echo "Thank you, Please follow the existing regulations\n";
+echo "\nThank you, Please follow the existing regulations\n";
 	sleep(1);
-echo"[ y / n ]  \n";
+echo"\n[ y / n ]  \n";
 
 $cuy=trim(fgets(STDIN));
 	echo"\r					\r";
@@ -42,17 +42,17 @@ if($cuy == y){
 if ($bhs == "id"){
 echo "syarat dan ketentuan untuk pengguna script RBS.\n";
 	sleep(1);
-echo "1.Dilarang untuk memperjual belikan script kepada pengguna yang lain.\n";
+echo "\n1.Dilarang untuk memperjual belikan script kepada pengguna yang lain.\n";
 	sleep(1);
-echo "2.Dilarang membuat banyak akun atau menggunakan akun di banyak ip.\n";
+echo "\n2.Dilarang membuat banyak akun atau menggunakan akun di banyak ip.\n";
 	sleep(1);
-echo "3.Selalu berikan respon yang baik untuk tujuan yang positip\n";
+echo "\n3.Selalu berikan respon yang baik untuk tujuan yang positip\n";
 	sleep(1);
-echo "4.Jika Melanggar salah satu dari syarat di atas , akun dan ip akan di banned , dan script akan di hapus\n";
+echo "\n4.Jika Melanggar salah satu dari syarat di atas , akun dan ip akan di banned , dan script akan di hapus\n";
 	sleep(1);
-echo "Terimakasih ,Dimohon untuk mengikuti peraturan yang ada\n";
+echo "\nTerimakasih ,Dimohon untuk mengikuti peraturan yang ada\n";
 	sleep(1);
-echo"[ y / n ] \n";
+echo"\n[ y / n ] \n";
 $cuy=trim(fgets(STDIN));
 	echo"\r					\r";
 if($cuy == y){
