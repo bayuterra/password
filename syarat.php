@@ -9,7 +9,7 @@ echo "please choose your language\nsilahkan pilih bahasa anda";
 echo "\nen/id :";
 $bhs=trim(fgets(STDIN));
 @system("clear");
-@error_reporting(0);
+error_reporting(0);
 echo "
 <=============xxx=============>\n
      Wellcome To RBS Terra\n
