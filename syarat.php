@@ -6,8 +6,12 @@ echo "
      Wellcome To RBS Terra\n
 <======[Assalamu-Alaikum]======>\n";
 echo "please choose your language\nsilahkan pilih bahasa anda";
-echo "en/id :";
+echo "\nen/id :";
 $bhs=trim(fgets(STDIN));
+echo "
+<=============xxx=============>\n
+     Wellcome To RBS Terra\n
+<======[Assalamu-Alaikum]======>\n";
 if ($bhs == "en"){
 echo "terms and conditions for RBS script users.\n";
 echo "1. It is forbidden to sell scripts to other users.\n";
