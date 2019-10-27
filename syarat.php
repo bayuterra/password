@@ -16,9 +16,6 @@ echo "3. Always give a good response for positive goals\n";
 echo "4. If you violate any of the above conditions, your account and IP will be banned, and the script will be deleted\n";
 echo "Thank you, Please follow the existing regulations \n[ y / n ]\n";
 $cuy=trim(fgets(STDIN));
-}else{
-	echo "Bye Bye\n";
-	exit();
 }
 if ($bhs == "id"){
 echo "syarat dan ketentuan untuk pengguna script RBS.\n";
